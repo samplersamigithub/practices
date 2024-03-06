@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        
+
+        let eng = 62
+        let math = 55
+        let urdu = 70
+        let isl = 60
+        let sci = 60
+        let social,study = 50
+
+
+        let obtainedmarks = eng + math + urdu + isl + sci + social, studies;
+
+        document.write("Obtained Marks / 357 =" + obtainedmarks + "<br>")
+
+
+        let per = (obatinedmarks / 600) * 100;
+
+        document.write("Percentage =" + per.toFixed(2) + "% <br>")
+
+
+
+        if (per <= 100 && per >= 80) {
+
+            document.write("Grade A+")
+        }
+
+        else if (per <= 79 && per >= 70) {
+
+            document.write("Grade A")
+        }
+        else if (per <= 69 && per >= 60) {
+
+            document.write("Grade B")
+        }
+        else if (per <= 59 && per >= 50) {
+            document.write("Grade C")
+        }
+        else if (per <= 49 && per >= 40) {
+
+            document.write("Grade D")
+        }
+        else {
+            document.write("Grade Fail")
+        }
+
+
+
+
+
+
+
+
+    </script>
+
+
+
+</body>
+
+</html>
